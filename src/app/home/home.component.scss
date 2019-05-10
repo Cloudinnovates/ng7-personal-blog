@@ -1,0 +1,115 @@
+html {
+    overflow: hidden;
+  }
+  .headerZone {
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    width: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    h1 {
+      font-family: "helvetica neue", sans-serif;
+      font-weight: 100;
+      font-size: 7em;
+      padding-bottom: 1em;
+    }
+    h3 {
+      font-family: "helvetica neue", sans-serif;
+      font-weight: 100;
+      font-size: 3em;
+    }
+    h2 {
+      font-family: "helvetica neue", sans-serif;
+      font-weight: 100;
+      font-size: 4em;
+    }
+    .experienceButton {
+      margin-top: 2em;
+    }
+  }
+  
+  @media only screen and (min-width: 775px) {
+    .mat-expButton {
+      letter-spacing: 5px;
+      font-weight: 200;
+    }
+  }
+  
+  @media only screen and (max-width: 1500px) {
+      .headerZone h1 {
+          font-size: 6em;
+      }
+      .headerZone h3 {
+          font-size: 3em;
+      }
+      .headerZone h2 {
+          font-size: 4em;
+      }
+  }
+  
+  @media only screen and (max-width: 1275px) {
+      .headerZone h1 {
+          font-size: 5em;
+      }
+      .headerZone h3 {
+          font-size: 2.5em;
+      }
+      .headerZone h2 {
+          font-size: 3em;
+      }
+  }
+  
+  @media only screen and (max-width: 1075px) {
+      .headerZone h1 {
+          font-size: 4em;
+      }
+      .headerZone h3 {
+          font-size: 2em;
+      }
+      .headerZone h2 {
+          font-size: 3em;
+      }
+  }
+  
+  @media only screen and (max-width: 875px) {
+      .headerZone h1 {
+          font-size: 3em;
+      }
+      .headerZone h3 {
+          font-size: 1.5em;
+      }
+      .headerZone h2 {
+          font-size: 2.5em;
+      }
+  }
+  
+  @media only screen and (max-width: 515px) {
+      .headerZone h1 {
+          font-size: 4.5em;
+      }
+      .headerZone h3 {
+          font-size: 2.25em;
+      }
+      .headerZone h2 {
+          font-size: 3.25em;
+      }
+  }
+  
+  @media only screen and (max-width: 390px) {
+      .headerZone h1 {
+          font-size: 3em;
+      }
+      .headerZone h3 {
+          font-size: 1.5em;
+      }
+      .headerZone h2 {
+          font-size: 2.25em;
+      }
+  }
+  
+  .mat-expButton {
+    font-family: "helvetica neue", sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+  }

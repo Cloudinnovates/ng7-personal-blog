@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng7-personal-blog';
+
+
+  onActivate(event): void {
+    window.scroll(0, 0);
+  }
+
 }
